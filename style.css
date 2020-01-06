@@ -1,0 +1,35 @@
+body {
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+img {
+    height: 92px;
+    width: 272px;
+    padding-top: 109px;
+    display: block;
+    margin: 0 auto;
+}
+#searchbar {
+    display: block;
+    width: 582px;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 0 40px;
+    background-image: url(https://www.iconninja.com/files/743/169/172/magnifying-glass-magnifier-search-find-zoom-icon.svg), url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-size: 20px, 24px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 15px, 620px;
+}
+.submit {
+    display:inline-block;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 5px 16px;
+}
