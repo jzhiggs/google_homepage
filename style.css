@@ -1,4 +1,63 @@
-body {
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { display: block;}
+body { line-height: 1;}
+ol,ul { list-style: none;}
+blockquote,q { quotes: none;}
+blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
+table { border-collapse: collapse; border-spacing: 0;}
+
+#header {
+    font-family: arial, sans-serif;
+    color: black;
+    font-size: 13px;
+}
+#leftheader a {
+    margin: 20px 10px 0 15px;
+}
+#leftheader a:link {
+    color: black;
+    text-decoration: none;
+    opacity: 75%;
+}
+#leftheader a:hover {
+    text-decoration: underline;
+}
+#rightheader a:link {
+    color: black;
+    text-decoration: none;
+}
+#rightheader a:hover {
+    opacity: 75%;
+    text-decoration: underline;
+}
+#rightheader {
+    position: absolute;
+    right: 15px;
+}
+#gmail {
+    margin-right: 10px;
+}
+#googleapps {
+    margin-left: 10px;
+    background: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    padding: 10px;
+    background-position: -138px -35px;
+    opacity: 55%;
+}
+#userlogo {
+    display: inline-block;
+    padding: 0 12px;
+}
+#signin {
+    background: #4285f4;
+    color: white;
+    font-weight: bold;
+    line-height: 28px;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    padding: 0 12px;
+}
+#bodycontent {
     font-family: arial, sans-serif;
     text-align: center;
 }
