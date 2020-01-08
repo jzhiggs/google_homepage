@@ -1,0 +1,2 @@
+This page emulates the Google homepage. It was created in order to explore some of the different ways elements can be targeted, altered, and moved.
+This is part of the curriculum from The Odin Project (https://www.theodinproject.com/lessons/html-css)
